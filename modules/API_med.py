@@ -34,11 +34,11 @@ class DataApi:
 
     def select_related(self, serialized_json, foreign_key : dict, on_val):
         """
-            Возвращает джоин по столбцам, указанных в словаре foreign_key по значениию on_val
-            :param serialized_json:
-            :param foreign_key:
-            :param on_val:
-            :return:
+                        Возвращает джоин по столбцам, указанных в словаре foreign_key по значениию on_val
+                        :param serialized_json:
+                        :param foreign_key:
+                        :param on_val:
+                        :return:
         """
         user = None
         todos_curr = []
