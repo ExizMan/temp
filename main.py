@@ -1,11 +1,7 @@
 from pathlib import Path
-import os
-import json
-import requests
-import time
 from modules.API_med import DataApi
 from modules.IO_med import UserTasks
-#from shell import init_dir
+
 
 
 usersURL = ('https://json.medrocket.ru/users')
