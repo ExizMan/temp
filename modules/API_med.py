@@ -52,7 +52,6 @@ class DataApi:
                     raise Exception("значения, по которому вы хотите соединить таблицы, не существует")
 
                 for item in copy.deepcopy(serialized_json):
-
                     if item.get(fk, None) == on_val:
                         item.pop(fk)
                         todos_curr.append(item)
