@@ -11,8 +11,6 @@ from modules.IO_med import UserTasks
 usersURL = ('https://json.medrocket.ru/users')
 todosURL = ('https://json.medrocket.ru/todos')
 
-command_dict ={""}
-
 
 
 
